@@ -7,8 +7,8 @@
  * new array is the product of all the numbers in the original array
  * except the one at i.
  * 
- * @param {Array} arr
- * @returns {Array} New array.
+ * @param {Array.<Number>} arr
+ * @returns {Array.<Number>} New array.
  */
 const productArray = (arr) => {
     let newArr = []
