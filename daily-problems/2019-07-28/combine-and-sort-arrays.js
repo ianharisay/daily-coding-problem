@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 'use strict'
 
 let arrays = [[10, 15, 30], [12, 15, 20], [17, 20, 32]]
