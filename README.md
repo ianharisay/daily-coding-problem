@@ -32,8 +32,6 @@ Follow-up: what if you can't use division?
 ---
 #### 2019-07-28
 
-Good morning! Here's your coding interview problem for today.
-
 This problem was asked by Google.
 
 Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
@@ -52,7 +50,7 @@ node = Node('root', Node('left', Node('left.left')), Node('right'))
 assert deserialize(serialize(node)).left.left.val == 'left.left'
 ```
 
-[Solution](./2019/2019-07-28/combine-and-sort-arrays.js)
+[Problem 2](./2019/2019-07-28/problem-2.md)
 
 ---
 #### 2019-07-30

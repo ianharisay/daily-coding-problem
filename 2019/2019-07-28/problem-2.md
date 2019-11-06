@@ -55,3 +55,5 @@ Doing all these steps will definitely help you crystallize your thought process,
 Best of luck!
 
 Marc
+
+[Solution](./combine-and-sort-arrays.js)
