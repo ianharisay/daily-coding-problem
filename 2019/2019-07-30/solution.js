@@ -2,13 +2,6 @@
 
 'use strict'
 
-const nvl = (n, val) => {
-    if (n == null) {
-        return val
-    }
-    return n
-}
-
 /**
  * 
  * @param {Array<Integer>} arr 
