@@ -8,6 +8,7 @@
  */
 const nextLowestPositiveInteger = (arr) => {
     let lpi =  arr.reduce((acc,val) => {
+        console.log(`acc: ${acc}, val: ${val}`)
         if(val > acc){
             acc = val + 1
         }
@@ -20,9 +21,5 @@ const nextLowestPositiveInteger = (arr) => {
 }
 
 nextLowestPositiveInteger([3, 4, -1, 1])
-
 nextLowestPositiveInteger([-1, -5, -89])
-
 nextLowestPositiveInteger([1, 2, 0])
-
-
