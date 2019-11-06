@@ -3,7 +3,7 @@
 This project houses my solutions to the Daily Coding Problems site.
 
 ---
-#### 2019-07-26 Daily Coding Problem
+#### 2019-07-26
 
 This problem was recently asked by Google.
 
@@ -14,7 +14,7 @@ For example, given `[10, 15, 3, 7]` and `k` of `17`, return true since `10 + 7` 
 Bonus: Can you do this in one pass?
 
 ---
-#### 2019-07-27 Daily Coding Problem
+#### 2019-07-27
 
 This problem was asked by Uber.
 
@@ -30,7 +30,7 @@ Follow-up: what if you can't use division?
 [Solution](./2019/2019-07-27/products-array.js)
 
 ---
-#### 2019-07-28 Daily Coding Problem
+#### 2019-07-28
 
 Good morning! Here's your coding interview problem for today.
 
@@ -55,7 +55,7 @@ assert deserialize(serialize(node)).left.left.val == 'left.left'
 [Solution](./2019/2019-07-28/combine-and-sort-arrays.js)
 
 ---
-#### 2019-07-30 Daily Coding Problems
+#### 2019-07-30
 
 This problem was asked by Stripe.
 
@@ -68,7 +68,7 @@ You can modify the input array in-place.
 [Solution](./2019/2019-07-30/solution.js)
 
 ---
-#### 2019-08-03 Daily Coding Problem
+#### 2019-08-03
 
 Good morning! Here's your coding interview problem for today.
 
@@ -90,7 +90,7 @@ For example, the following tree has 5 unival subtrees:
 ```
 
 ---
-#### 2019-08-03 Daily Coding Problem
+#### 2019-08-03
 
 This problem was asked by Airbnb.
 
@@ -101,9 +101,115 @@ For example, `[2, 4, 6, 2, 5]` should return `13`, since we pick `2`, `6`, and `
 Follow-up: Can you do this in O(N) time and constant space?
 
 ---
-#### 2019-08-05 Daily Coding Problem
+#### 2019-08-05
 
 This problem was asked by Apple.
 
 Implement a job scheduler which takes in a function `f` and an integer `n`, and calls `f` after `n` milliseconds.
 
+---
+#### 2019-09-29 [Easy]
+
+This problem was asked by Amazon.
+
+Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
+
+For example, given the following matrix:
+```
+[[1,  2,  3,  4,  5],
+ [6,  7,  8,  9,  10],
+ [11, 12, 13, 14, 15],
+ [16, 17, 18, 19, 20]]
+```
+You should print out the following:
+```
+1
+2
+3
+4
+5
+10
+15
+20
+19
+18
+17
+16
+11
+6
+7
+8
+9
+14
+13
+12
+```
+
+---
+#### 2019-11-02 [Medium]
+
+This problem was asked by Microsoft.
+
+Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
+
+For example, given `[100, 4, 200, 1, 3, 2]`, the longest consecutive element sequence is `[1, 2, 3, 4]`. 
+Return its length: `4`.
+
+Your algorithm should run in `O(n)` complexity.
+
+---
+#### 2019-11-03 [Easy]
+
+This problem was asked by Google.
+
+You are in an infinite 2D grid where you can move in any of the 8 directions:
+```
+ (x,y) to
+    (x+1, y),
+    (x - 1, y),
+    (x, y+1),
+    (x, y-1),
+    (x-1, y-1),
+    (x+1,y+1),
+    (x-1,y+1),
+    (x+1,y-1)
+```
+You are given a sequence of points and the order in which you need to cover the points. Give the minimum number of steps in which you can achieve it. You start from the first point.
+
+Example:
+```
+Input: [(0, 0), (1, 1), (1, 2)]
+Output: 2
+```
+It takes 1 step to move from `(0, 0)` to `(1, 1)`. It takes one more step to move from `(1, 1)` to `(1, 2)`.
+
+---
+#### 2019-11-04 [Easy]
+
+This problem was asked by Alibaba.
+
+Given an even number (greater than 2), return two prime numbers whose sum will be equal to the given number.
+
+A solution will always exist. See [Goldbach’s conjecture](https://en.wikipedia.org/wiki/Goldbach%27s_conjecture).
+
+Example:
+```
+Input: 4
+Output: 2 + 2 = 4
+```
+If there are more than one solution possible, return the lexicographically smaller solution.
+
+If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= d, then
+```
+[a, b] < [c, d]
+```
+If a < c OR a==c AND b < d.
+
+---
+#### 2019-11-05 [Medium]
+
+This problem was asked by Lyft.
+
+Given a list of integers and a number K, return which contiguous elements of the list sum to K.
+
+For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
